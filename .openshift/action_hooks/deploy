@@ -15,7 +15,7 @@ fi
 if [ ! -d $OPENSHIFT_DATA_DIR/apache-maven-3.2.2 ]
 	then 
 		cd $OPENSHIFT_DATA_DIR
-		wget http://mirror.cc.columbia.edu/pub/software/apache/maven/maven-3/3.2.2/binaries/apache-maven-3.2.2-bin.tar.gz
+		wget http://mirror.nbtelecom.com.br/apache/maven/maven-3/3.2.5/binaries/apache-maven-3.2.5-bin.tar.gz
 		tar xvf *.tar.gz 
 		rm -f *.tar.gz
 fi
